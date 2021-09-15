@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Narrative Books</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1dc853ada0.js" crossorigin="anonymous"></script>
+  <script>
+
+  
+  function myFunction2a()
+    {
+      alert("Book rented Successfully");
+      document.querySelector("#x2").innerHTML=10;
+    }
+    function myFunction2b()
+    {
+      alert("Book rented Successfully");
+      document.querySelector("#x3").innerHTML=5;
+    }
+    function myFunction2c()
+    {
+      alert("Book rented Successfully");
+      document.querySelector("#x4").innerHTML=21;
+    }
+    function myFunction3a()
+    {
+      alert("Book returned Successfully");
+      var w = document.querySelector("#x2").innerHTML=12;
+  
+  
+  
+    }
+    function myFunction3b()
+    {
+      alert("Book returned Successfully");
+      var w = document.querySelector("#x3").innerHTML=7;
+  
+    }
+    function myFunction3c()
+    {
+      alert("Book returned Successfully");
+      var w = document.querySelector("#x4").innerHTML=23;
+  
+    }
+    </script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+    <a class="navbar-brand" href="#">AU Library</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="categories.html">DisplayBooks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Management</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bottom">About Us</a>
+        </li>
+        <div class="dropdown">
+          <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+           Categories
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="collge.html">College Books</a>
+            <a class="dropdown-item" href="narrative.html">Narrative Books</a>
+          </div>
+        </div>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Us -->
+<section id="selection">
+  <div class="select"> 
+
+<div class="blockquote text-center ">
+    <h1 color="">Narrative Books</h1>
+</div>
+<table class="table">
+<thead class="thead-dark">
+<tr>
+  <th>
+    #
+  </th>
+  <th scope="col">Book Name</th>
+  <th scope="col">Book Author</th>
+  <th scope="col">Book Publisher</th>
+  <th scope="col">Total copies</th>
+  <th scope="col">Avalable copies</th>
+  <th scope="col">Rent</th>
+  <th scope="col">Return</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <th scope="row">1</th>
+  <td>American Birds</td>
+  <td>Literary Companion</td>
+  <td> Penguin Books</td>
+  <td>20</td>
+  <td id="x2">11</td>
+  <td>  <button type="submit" class="btn btn-outline-primary" onclick="myFunction2a()">rent</button></td>
+  <td>  <button type="submit" class="btn btn-outline-primary" onclick="myFunction3a()">return</button></td>
+</tr>
+<tr>
+    <th scope="row">2</th>
+    <td>Selected stories of Nancy Hale </td>
+    <td>Carlo Rovelli</td>
+    <td> Penguin Books</td>
+    <td>20</td>
+    <td id="x2">11</td>
+    <td>  <button type="submit" class="btn btn-outline-primary" onclick="myFunction2a()">rent</button></td>
+    <td>  <button type="submit" class="btn btn-outline-primary" onclick="myFunction3a()">return</button></td>
+  </tr>
+<tr>
+  <th scope="row">3</th>
+  <td>Wonderful Life: The Burgess Shale and the Nature of History</td>
+  <td>Stephen Jay Gould</td>
+  <td>W. W. Norton & Company</td>
+  <td>24</td>
+  <td id="x3">6</td>
+  <td>  <button type="submit" class="btn btn-outline-primary" onclick="myFunction2b()">rent</button></td>
+  <td>  <button type="submit" class="btn btn-outline-primary" onclick="myFunction3b()">return</button></td>
+</tr>
+<tr>
+  <th scope="row">4</th>
+  <td>On the Origin of Species</td>
+  <td>Charles Darwin</td>
+  <td>-</td>
+  <td>30</td>
+  <td id="x4">22</td>
+  <td>  <button type="submit" class="btn btn-outline-primary" onclick="myFunction2c()">rent</button></td>
+  <td>  <button type="submit" class="btn btn-outline-primary" onclick="myFunction3c()">return</button></td>
+</tr>
+</tbody>
+</table>
+      </div>
+    </section>
+ 
+
+  <!-- footer -->
+
+  <section id="bottom">
+    <div class="footer">
+      <div class="text-center">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h6 class="follow-us">FOLLOW US&nbsp;&nbsp;<a href="https://www.facebook.com/SravaniModugaparapu/" class="btn"><i class="fab fa-facebook-f social-icons"></i></a>
+              <a href="https://www.instagram.com/its_me_srav_zz/" class="btn"><i
+                  class="fab fa-instagram social-icons"></i></a>
+                  <a href="https://www.linkedin.com/in/sravani-modugaparapu-355900209/" class="btn"><i class="fab fa-linkedin social-icons"></i></a></h6>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <ul class="navbar-nav footer-link" data-aos="fade-up" data-aos-duration="1000">
+                  <li class="nav-item footer-link"><a href="contact.html" class="footer-link">Contact Us</a></li>
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Customer Services</a></li>
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Media Inquiries</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-6">
+                <ul class="navbar-nav footer-link" data-aos="fade-up" data-aos-duration="1000">
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Rights & permissions</a></li>
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Privacy Policy</a></li>
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Get help</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    //Login
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,624 @@
+html, body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration:none;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grey {
+  color: rgb(255, 35, 35);
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem;
+  background-attachment:fixed;
+  text-transform: uppercase;
+  
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Ubuntu"; */
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f42535;
+  text-decoration-color: #2ecc71;
+  font-style: initial;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-family: Arial,Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-shadow: red;
+}
+
+.nav-link:hover {
+  color: #2617f8;
+}
+#id01 .modal{
+  margin-right: 10px;
+}
+.dropdown{
+  text-transform: uppercase;
+    padding: 0 16px;
+  
+}
+.btn{
+  font-family: Arial,Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-shadow: red;
+  padding: 0rem;
+  text-transform: uppercase;
+
+}
+
+
+/* Homepage */
+#homepage {
+  background: url("../images/homepage5.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+/* Homepage */
+#homepage .homepge-title {
+  text-align: center;
+  padding-top: 15rem;
+  color: #fff;
+}
+
+.homepge-title h2 {
+  font-size: 5rem;
+}
+
+
+.main-heading {
+  padding: 4% 0%;
+  margin: 0 13%;
+  border: 1px solid #fff;
+}
+
+.main-heading {
+  text-transform: uppercase;
+}
+
+.searchbar {
+  width: 40px;
+  border: 1px;
+  box-shadow: #999;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.mysearch {
+  margin-bottom: 10%;
+  width: 30px;
+}
+
+#myUL ul {
+  list-style-type: none;
+}
+
+#myUL li {
+  list-style-type: none;
+  color: black;
+  background-color: white;
+  width: 78%;
+  margin-left: 8.5%;
+}
+
+#myUL a {
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+}
+
+#myUL li:hover {
+  background-color: #eee;
+}
+
+/* Middle */
+
+
+/* Books */
+.books {
+  background-color: #fff;
+  padding: 3%;
+ height: 100vh;
+  width: 100%;
+  
+  background-size: 65%;
+}
+
+.books-title {
+  padding: 2% 0 5%;
+}
+
+.books-title h2 {
+  transform: uppercase;
+  text-align: center;
+}
+
+.books-title hr {
+  border-top: 1px solid black;
+  width: 20%;
+  margin-left: 50%;
+}
+.books {
+  background-color: #fff;
+  padding: 3%;
+ height: 100vh;
+
+  width: 100%;
+  background-size: 65%;
+}
+
+.books-title {
+  padding: 2% 0 5%;
+}
+
+.books-title h2 {
+  transform: uppercase;
+  text-align: center;
+}
+
+.books-title hr {
+  border-top: 1px solid black;
+  width: 20%;
+  margin-left: 50%;
+}
+
+.card {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.card-body{
+  background-color: #f2f2f0;
+}
+.card-img-top {
+  height: 350px;
+}
+
+.card-img-top:hover {
+  opacity: 0.5;
+}
+
+/* Blank Section */
+.blank-section {
+  height: 80vh;
+  background: url("../images/homepage9.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.blank-section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 10rem;
+}
+
+.blank-section hr {
+  font-weight: bold;
+  border-top: 1px solid #fff;
+  width: 30%;
+}
+
+/* Management */
+
+.management-title {
+  padding: 5% 0% 2%;
+}
+
+.management-title h2 {
+  text-align: center;
+}
+
+.management-title hr {
+  border-top: 1px solid black;
+  width: 30%;
+}
+
+.management-image {
+  height: 400px;
+  width: auto;
+  margin: 0% 3%;
+  /* border: 1px solid black; */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.management-content {
+  padding: 3%;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #aaaaaa;
+  width: 120%;
+  padding: 40px 10px;
+}
+
+.footer a {
+  color: #aaaaaa;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.follow-us {
+  color: #fff;
+}
+
+.social-icons {
+  color: #fff;
+}
+
+.social-icons:hover {
+  color: red;
+  padding: 2px;
+}
+
+.social-icons ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-link a:hover {
+  color: red;
+}
+
+.footer-link a {
+  text-decoration: none;
+}
+
+@media (max-width:1026px) {
+  .management-image {
+    height: 350px;
+    width: 350px;
+    margin: 0% 3%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .contact-details-content h4 {
+    text-align: center;
+  }
+
+  .contact {
+    padding: 3%;
+    margin-top: 20%;
+  }
+}
+
+/* Contact Page */
+.contact {
+  padding: 3%;
+  margin-top: 5%;
+}
+
+.contact hr {
+  border-top: 7px solid black;
+}
+
+.contact .contact-content {
+  /* text-align: center; */
+  margin-right: 7%;
+}
+
+.contact-details-content li {
+  list-style-type: none;
+}
+
+.contact-details-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.containe {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 400px;
+  max-width: 100%;
+  margin: 0 20%;
+  padding: 1%;
+}
+
+#submit {
+  background-color: #f42535;
+  border: 2px solid #f42535;
+  color: #fff;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.contact-content h4 {
+  text-align: center;
+}
+
+.contact-heading {
+  margin-bottom: 4%;
+}
+
+.contact-heading hr {
+  border-top: 1px solid black;
+  width: 20%;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-group label {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-group input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form-group.success input {
+  border-color: #2ecc71;
+}
+
+.form-group.error input {
+  border-color: #e74c3c;
+}
+
+.header {
+  background-color: #f7eeee;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 0px;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.form-group i {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-group.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-group.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-group small {
+  position: absolute;
+  left: 0;
+  border: 0;
+  visibility: hidden;
+}
+
+.form-group.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form button {
+  background-color: #f42535;
+  border: 2px solid #f42535;
+  color: #fff;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  /* background-color: #4CAF50; */
+  background-color: #fa1d1d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.psw{
+  color: black;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  color: white;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: rgb(19, 16, 16);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(240, 234, 234);
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media (max-width:1026px) {
+  #homepage {
+    height: 40vh;
+  }
+  .blank-section {
+    height: 25vh;
+  }
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}

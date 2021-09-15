@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1dc853ada0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+    <a class="navbar-brand" href="#">AU Library</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Management</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bottom">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+
+
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+      <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+          </div>
+
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Us -->
+
+  <div class="contact">
+    <div class="row">
+      <div class="col-lg-9 col-md-9 col-sm-12">
+        <div class="contact-content">
+          <hr>
+          <div class="contact-heading">
+            <h4>CONTACT US</h4>
+            <hr>
+          </div>
+
+          <div class="containe">
+
+            <form action="mailto:smkshbhosale32@gmail.com" method="post" enctype="text/plain">
+              <label for="">
+                <p>Your Name:</p>
+              </label>
+              <input type="text" name="Name" value=""><br>
+              <label for="">
+                <p>Your Email:</p>
+              </label>
+              <input type="email" name="Email" value=""><br>
+              <label for="">
+                <p>Your Message:</p>
+              </label><br>
+              <textarea name="Message" rows="8" cols="40"></textarea><br>
+              <label for="">
+                <p>Your Address:</p>
+              </label><br>
+              <textarea name="Address" rows="2" cols="40"></textarea><br>
+              <input type="submit" id="submit" name="">
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <div class="contact-details-content">
+          <hr>
+          <h4>CUSTOMER SERVICE CENTRE</h4>
+          <p>AU Library<br />Shivajipalem, Visakhapatnam.<br />Visakhapatnam-530017<br /><br /></p>
+          <ul>
+            <li><a href="mailto:modugaparapu234@gmail.com">📧Gmail</a></li>
+            <li><a href="tel:+1234567890">📞Phone</a></li>
+          </ul>
+          <p class="grey">Hours of operation</p>
+          <p>Mon-Fri.  7:00am to 9:30pm & <br />Sat. 8:00am to 6:00pm</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <section id="bottom">
+    <div class="footer">
+      <div class="text-center">
+        <div class="row">
+          
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h6 class="follow-us">FOLLOW US&nbsp;&nbsp;<a href="https://www.facebook.com/SravaniModugaparapu/" class="btn"><i class="fab fa-facebook-f social-icons"></i></a>
+              <a href="https://www.instagram.com/its_me_srav_zz/" class="btn"><i
+                  class="fab fa-instagram social-icons"></i></a>
+                  <a href="https://www.linkedin.com/in/sravani-modugaparapu-355900209/" class="btn"><i class="fab fa-linkedin social-icons"></i></a></h6>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <ul class="navbar-nav footer-link" data-aos="fade-up" data-aos-duration="1000">
+                  <li class="nav-item footer-link"><a href="contact.html" class="footer-link">Contact Us</a></li>
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Customer Services</a></li>
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Media Inquiries</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-6">
+                <ul class="navbar-nav footer-link" data-aos="fade-up" data-aos-duration="1000">
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Rights & permissions</a></li>
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Privacy Policy</a></li>
+                  <li class="nav-item footer-link"><a href="" class="footer-link">Get help</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    //Login
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
